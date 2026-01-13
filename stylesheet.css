@@ -20,7 +20,7 @@ body {
   padding: 2.5rem;
 }
 
-a {
+a, span {
   color: var(--txt-color);
   -webkit-transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-in-out;
@@ -29,6 +29,7 @@ a {
   transition-timing-function: ease-in-out;
 }
 
-a:hover {
+a:hover, span:hover {
   text-shadow: 0.1rem 0.1rem cyan, -0.1rem -0.1rem magenta;
+  cursor: pointer;
 }
